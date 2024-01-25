@@ -137,8 +137,22 @@ Config = {
 	},
 	DumpItems = {
 		"bottle",
+		"water",
 		"can",
 		"sandwich",
+		"bread",
+		"candy",
+		"tosti",
+		"weapon_bottle",
+		"weapon_candycane",
+		"plastic",
+		"glass",
+		"lighter",
+		"steel",
+		"metalscrap",
+		"rubber",
+		"aluminum",
+		"copper"
 	},
 	ScrapItems = {
 		"steel",
