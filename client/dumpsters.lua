@@ -31,6 +31,7 @@ if Config.DumpsterDiving.Enable then if Config.Debug then print("^5Debug^7: ^2Lo
         --If two random numbers match, give bonus
         if math.random(1, 3) == math.random(1, 3) then toggleItem(true, "rubber", math.random(1, 4)) Wait(100) end
         lockInv(false)
+        TriggerEvent('wais:addmissionxp:dumpsterdive', 1) --added by pamela for wais battlepass
     end
 
     RegisterNetEvent('jim-recycle:Dumpsters:Search', function(data) local Ped = PlayerPedId()
